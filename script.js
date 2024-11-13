@@ -15,10 +15,11 @@ Questo richiederà un minimo di ricerca.*/
 const priceTicketKm = 0.21;
 const discountUnderAge = 20;
 const discountOverAge = 40;
-const priceTicket = 0.21 * totalKm;
 
 let totalKm = parseInt(prompt('Quanti km devi percorrere?'));
 let agePassenger = parseInt(prompt('Quanti anni hai?'));
+
+const priceTicket = 0.21 * totalKm;
 
 let finalPrice
 
