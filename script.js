@@ -21,7 +21,7 @@ let agePassenger = parseInt(prompt('Quanti anni hai?'));
 
 const priceTicket = 0.21 * totalKm;
 
-let finalPrice
+let finalPrice = 21;
 
 if (agePassenger < 18){
   const priceUnderAge = priceTicket * (1 - discountUnderAge / 100);
